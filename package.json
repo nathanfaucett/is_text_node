@@ -21,6 +21,6 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
-    "is_node": ""
+    "is_node": "git://github.com/nathanfaucett/is_node"
   }
 }
