@@ -4,6 +4,6 @@ var isNode = require("is_node");
 module.exports = isTextNode;
 
 
-function isTextNode(obj) {
-    return isNode(obj) && obj.nodeType === 3;
+function isTextNode(value) {
+    return isNode(value) && value.nodeType === 3;
 }
